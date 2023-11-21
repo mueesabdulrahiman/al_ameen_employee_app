@@ -15,7 +15,7 @@ class TransactionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<AccountProvider>();
-    provider.getUsername;
+    provider.getUsername();
     return Scaffold(
       key: key,
       body: SafeArea(
